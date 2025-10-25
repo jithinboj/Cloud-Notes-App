@@ -1,0 +1,19 @@
+{
+  "name": "cloud-notes-infrastructure",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "synth": "cdk synth",
+    "deploy": "cdk deploy --require-approval never",
+    "destroy": "cdk destroy --force"
+  },
+  "devDependencies": {
+    "aws-cdk-lib": "^2.90.0",
+    "constructs": "^10.1.0",
+    "typescript": "^5.0.0",
+    "@aws-cdk/aws-apigatewayv2-alpha": "^2.90.0-alpha.0",
+    "@aws-cdk/aws-apigatewayv2-integrations-alpha": "^2.90.0-alpha.0"
+  }
+}
