@@ -23,8 +23,4 @@ Repository layout
   - notesHandler - REST CRUD
   - wsHandler - connect/disconnect / broadcast
 - /frontend - React app (TypeScript)
-- .github/workflows - (example) GitHub Actions for build & deploy
-
-Important
-This repository contains the core code required to run locally and deploy to AWS. You need an AWS account and AWS CLI configured with proper credentials. CDK will synthesize and deploy all resources.
-If you want, I can push these files into a new GitHub repo for you (I will need repo details), or output additional files such as full GitHub Actions workflow and exact CDK context for production.
+- .github/workflows - (example) GitHub Actions for build & deplo
